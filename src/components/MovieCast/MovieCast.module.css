@@ -1,0 +1,30 @@
+.container {
+  padding: 20px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.item {
+  background-color: #222;
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.image {
+  width: 280px;
+}
+
+.text {
+  font-size: 20px;
+  color: #ccc;
+}

@@ -1,0 +1,53 @@
+.container {
+  padding: 20px;
+}
+
+.button {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+
+.aboutWithImage {
+  display: flex;
+  gap: 50px;
+}
+
+.aboutFilms {
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.image {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 204, 0, 0.5);
+}
+
+.text {
+  font-size: 24px;
+  color: #ccc;
+}
+
+.navigation {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.navigation a {
+  font-size: 32px;
+  color: #ffcc00;
+  transition: 0.3s;
+}
+
+.navigation a:hover {
+  color: #742b98;
+}

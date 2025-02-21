@@ -1,0 +1,24 @@
+.header {
+  background-color: #222;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  transition: 0.3s;
+  font-size: 40px;
+}
+
+.active {
+  border-bottom: 2px solid #ffcc00;
+  font-weight: bold;
+}
